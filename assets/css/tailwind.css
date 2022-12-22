@@ -22,4 +22,12 @@
     .container {
         @apply w-full px-5 py-3;
     }
+
+    .no-scrollbar {
+        scrollbar-width: none;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
 }

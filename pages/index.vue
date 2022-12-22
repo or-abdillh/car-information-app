@@ -52,3 +52,11 @@
         <!-- end of Recomended Cars For You -->
     </main>
 </template>
+
+<script setup>
+
+definePageMeta({
+    title: 'Home'
+})
+
+</script>
